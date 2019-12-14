@@ -10,10 +10,6 @@ export default () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-		<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<img src="https://img.icons8.com/plasticine/200/000000/youtube.png" alt="YouTube" />
-		</nav>
     <Grid style={{ justifyContent: "center" }} container spacing={10}>
       <Grid item xs={11}>
         <Grid container spacing={10}>
